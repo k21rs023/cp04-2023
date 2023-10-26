@@ -68,11 +68,15 @@
     #btnB {
         font-size: 30px;
         position:absolute; top:380px; left:45%; width:25%; height:60px; 
+
+        color: green;
     }
 
     #btnC {
         font-size: 30px;
         position:absolute; top:380px; left:70%; width:28%; height:60px; 
+
+        color:green;
     }
     
     #minute {
