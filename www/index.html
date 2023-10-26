@@ -168,7 +168,7 @@
       var canvas = $("#mycanvas")[0];  
       var ctx = canvas.getContext("2d");
       var img = new Image();
-      img.src = "ksuisbg.gif";
+      img.src = "sky_00290.jpg";
       img.onload = function() {
         ctx.drawImage(img, 0, 0, 300, 300);
       };
@@ -215,9 +215,10 @@
         if(rest <= 0) {
           active = false;
           alarm();
-      }
-          
-    } 
+
+          $("#btnA").prop("disabled",false);
+      }      
+ } 
     
 
   </script>
@@ -235,5 +236,7 @@
     <button id="btnC">Set</button>  
     <input type="number" id="minute" value=0 >
     <input type="number" id="second" value=15 >
+
+    
 </body>
 </html>
